@@ -37,4 +37,14 @@
         @endforeach
     </tbody>
 </table>
+<style>li.page-item span.page-link{
+    color: black !important;
+    background-color: white !important;
+    border-color: black !important;
+}
+    li.page-item.active span.page-link {
+    color: white !important;
+    background-color: black !important;
+    }</style>
+{{ $pelanggan->links() }}
 @endsection
